@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi|Roboto+Slab');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Gugi', cursive;
+	font-size:22px;
+}
+
+
+.letraPrincipal{
+	font-size-adjust: auto;
+	font-size: 35px
+
+}
+
+
+li{
+	list-style:none;
+}
+html {
+	height: 100%;
+	background: rgb(255, 255, 255);
+	background: radial-gradient(circle, rgb(138, 14, 255) 24%, rgb(255, 157, 28));
+	background-size: cover;
+}
+#container{
+	width:80%;
+	height:auto;
+	margin:4px auto;
+}
+#calculadora{
+	width: 234px;
+	height: 230px;
+	padding:2px;
+    background-color: rgba(250, 231, 57, 0.911);
+    border-radius:6.76712889756476719px;
+}
+.input-valor{
+	margin:8px auto;
+	width:95%;
+	height:30px;
+	font-size: 16px;
+	overflow:hidden;
+	text-align: right;
+	color:#48484D;
+	padding: 8px;
+	background-color:#fff;
+	box-shadow: inset -1px -1px 4px 1px #eee;
+}
+.key li{
+	width:50px;
+	height:30px;
+	border-radius:3px;
+	color:#fff;
+	background-color:#6C73FA;
+	cursor:pointer;
+	float:left;
+	margin: 0px -3px 5px 8px;
+	line-height: 30px;
+	text-align: center;
+	box-shadow: 0px 3px 1px 0px #444651;
+}
+.key li:hover{
+	background-color: rgb(0, 250, 212);
+	color: rgba(39, 103, 243, 0.911);
+	transition:0.3s;
+}
+.key li:active{
+	box-shadow: 0px 1px 1px 0px #212225;
+}
+.verificar{
+	width: 93.4% !important;
+}
+.center-all{
+    text-align: center;
+    text-size-adjust: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em;
+    height: 10em;
+    position: relative ;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
